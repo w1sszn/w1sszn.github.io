@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Song List</title>
+</head>
+<body>
+
+    <h1>Your Song List</h1>
+
+    <ul>
+        <li><a href="#" onclick="showDescription(1)">Un preview</a></li>
+        <li><a href="#" onclick="showDescription(2)">Cosas que no te dije</a></li>
+        <li><a href="#" onclick="showDescription(3)">Reina</a></li>
+        <li><a href="#" onclick="showDescription(4)">Sueño</a></li>
+        <li><a href="#" onclick="showDescription(5)">Infeliz</a></li>
+        <li><a href="#" onclick="showDescription(6)">Tú</a></li>
+        <li><a href="#" onclick="showDescription(7)">Yonaguni</a></li>
+        <li><a href="#" onclick="showDescription(8)">Medio Crazy</a></li>
+        <li><a href="#" onclick="showDescription(9)">Volando</a></li>
+        <li><a href="#" onclick="showDescription(10)">Eazt</a></li>
+        <li><a href="#" onclick="showDescription(11)">Aquel Nap</a></li>
+        <li><a href="#" onclick="showDescription(12)">Despeinada</a></li>
+        <li><a href="#" onclick="showDescription(13)">Porfa</a></li>
+        <li><a href="#" onclick="showDescription(14)">OKUPA</a></li>
+        <li><a href="#" onclick="showDescription(15)">Ojitos Lindos</a></li>
+        <li><a href="#" onclick="showDescription(16)"><3</a></li>
+    </ul>
+
+    <div id="description-container">
+        <p id="song-description">Click on a song to see its description.</p>
+    </div>
+
+    <script>
+        function showDescription(songNumber) {
+            var descriptionContainer = document.getElementById('description-container');
+            var description = getSongDescription(songNumber);
+            document.getElementById('song-description').innerText = description;
+        }
+
+        function getSongDescription(songNumber) {
+            switch (songNumber) {
+                case 1:
+                    return "Hola mi amor. Tomo ejemplo del mejor (el deprimido) para hacerte una introducción de lo que viene después. ... Espero que te guste mucho, te amo <3";
+                case 2:
+                    return "C + J = <3   Decidí poner esta canción como primera de tu lista porque ... Te quiero y te necesito mucho más de lo que puede parecer ...";
+                case 3:
+                    return "Creo que no hace mucha falta que te explique el título de esta canción ni el estribillo. ... Espero que como en la canción dice, puedas perdonar mis errores y seguir queriéndome incondicionalmente como yo te quiero a ti.";
+                case 4:
+                    return "Preciosa canción de los mejores en rimas sobre amor. Cada frase de Beret me recuerda a ti, como que eres el camino que quiero seguir, que tenemos una historia preciosa, que hago y haría más cosas por ti de las que haría por mi o por cualquier persona. ...";
+                case 5:
+                    return "No es de mis canciones favoritas, pero sí que explica muy bien todo lo que siento por ti, que, a diferencia de la canción, yo sí puedo afirmar que desconoces completamente todo lo que siento por ti porque es mucho más de lo que puedas imaginar. ...";
+                case 6:
+                    return "Esta canción habla por sí sola. Me encantas tú, solo tú y absolutamente todo tú. No te cambiaría nada de nada porque tengo la mujer perfecta a mi lado, la cual me quiere, me cuida y se preocupa por mí. Eres mejor que la novia perfecta que cualquiera haya podido soñar y estoy más que orgulloso de poder pasar mi vida a tu lado.";
+                case 7:
+                    return "Considero que esta canción no podía faltar por diversos motivos. Como bien nos cuenta uno de mis cantantes favoritos, entiende que no puedo dejar de pensar en ti, sacarte de mi mente u olvidarme y no echar de menos tu cara tu risa y tu pelo. ...";
+                case 8:
+                    return "Con esta canción que creo que no has escuchado nunca, quería decirte que igual que todo el mundo, tienes muchas cosas que te distinguen de los demás, y a veces esas cualidades se pueden considerar “locura”. ...";
+                case 9:
+                    return "Como empieza Bad Bunny diciendo, no me importan las demás, dejo a todo el mundo de lado y solo me importas tú. No paro de soñar contigo ni de tenerte en mi cabeza, tú eres mi medicina para estar bien. ...";
+                case 10:
+                    return "Para entender lo que te quiero decir con esta canción, solo tienes que escucharla, pero además de escucharla con tus oídos, tienes que hacerlo también con tu corazón. ...";
+                case 11:
+                    return "Cada vez que escucho esta canción solo hay una cosa que se me viene a la cabeza y esa eres tú. ...";
+                case 12:
+                    return "Me parece que es una preciosa canción. Me hace recordar lo preciosa que eres y lo mal que lo paso cuando te alejas. ...";
+                case 13:
+                    return "Espero que esta canción pueda recordarte que no me interesa absolutamente nadie que no seas tú y que no te cambiaría por nadie, paso de cualquier chica o literalmente de cualquier persona siempre y cuando tú estés bien, yo lo único que quiero es lo que dice la canción, que te quedes conmigo :((";
+                case 14:
+                    return "Es probable que no hayas escuchado esta canción pero me parecía una manera muy light y rítmica de recordarte de que me espantas los demonios, me calmas y me haces ser una mejor persona. Me siento muy apegado a ti pero no tengo miedo de ello porque sé que tú haces lo mejor para que ambos estemos bien.";
+                case 15:
+                    return "Esta canción captó rápidamente mi atención porque tus ojitos me tienen más que enamorado, son preciosos. ...";
+                case 16:
+                    return "Por último y para cerrar, me gustaría dedicarte esta canción para agradecerte todo lo que haces por mí, agradecerte que confíes en mí y me apoyes
