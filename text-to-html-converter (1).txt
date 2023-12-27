@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Codebeautify.org Text to HTML Converter</title>
+	</head>
+	<body>
+		<p>
+			<!DOCTYPE html>
+			<html lang="en">
+				<head>
+					<meta charset="UTF-8">
+						<meta name="viewport" content="width=device-width, initial-scale=1.0">
+							<title>Your Song List</title>
+						</head>
+						<body>
+							<h1>Your Song List</h1>
+							<ul>
+								<li>
+									<a href="#" onclick="showDescription(1)">Un preview</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(2)">Cosas que no te dije</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(3)">Reina</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(4)">Sue�o</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(5)">Infeliz</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(6)">T�</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(7)">Yonaguni</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(8)">Medio Crazy</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(9)">Volando</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(10)">Eazt</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(11)">Aquel Nap</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(12)">Despeinada</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(13)">Porfa</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(14)">OKUPA</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(15)">Ojitos Lindos</a>
+								</li>
+								<li>
+									<a href="#" onclick="showDescription(16)">
+										<3
+										</a>
+									</li>
+								</ul>
+								<div id="description-container">
+									<p id="song-description">Click on a song to see its description.</p>
+								</div>
+								<script>
+ 
+        function showDescription(songNumber) {
+ 
+            var descriptionContainer = document.getElementById('description-container');
+ 
+            var description = getSongDescription(songNumber);
+ 
+            document.getElementById('song-description').innerText = description;
+ 
+        }
+ 
+
+ 
+        function getSongDescription(songNumber) {
+ 
+            switch (songNumber) {
+ 
+                case 1:
+ 
+                    return "Hola mi amor. Tomo ejemplo del mejor (el deprimido) para hacerte una introducci�n de lo que viene despu�s. ... Espero que te guste mucho, te amo 
+									<3";
+ 
+                case 2:
+ 
+                    return "C + J = 
+										<3   Decid� poner esta canci�n como primera de tu lista porque ... Te quiero y te necesito mucho m�s de lo que puede parecer ...";
+ 
+                case 3:
+ 
+                    return "Creo que no hace mucha falta que te explique el t�tulo de esta canci�n ni el estribillo. ... Espero que como en la canci�n dice, puedas perdonar mis errores y seguir queri�ndome incondicionalmente como yo te quiero a ti.";
+ 
+                case 4:
+ 
+                    return "Preciosa canci�n de los mejores en rimas sobre amor. Cada frase de Beret me recuerda a ti, como que eres el camino que quiero seguir, que tenemos una historia preciosa, que hago y har�a m�s cosas por ti de las que har�a por mi o por cualquier persona. ...";
+ 
+                case 5:
+ 
+                    return "No es de mis canciones favoritas, pero s� que explica muy bien todo lo que siento por ti, que, a diferencia de la canci�n, yo s� puedo afirmar que desconoces completamente todo lo que siento por ti porque es mucho m�s de lo que puedas imaginar. ...";
+ 
+                case 6:
+ 
+                    return "Esta canci�n habla por s� sola. Me encantas t�, solo t� y absolutamente todo t�. No te cambiar�a nada de nada porque tengo la mujer perfecta a mi lado, la cual me quiere, me cuida y se preocupa por m�. Eres mejor que la novia perfecta que cualquiera haya podido so�ar y estoy m�s que orgulloso de poder pasar mi vida a tu lado.";
+ 
+                case 7:
+ 
+                    return "Considero que esta canci�n no pod�a faltar por diversos motivos. Como bien nos cuenta uno de mis cantantes favoritos, entiende que no puedo dejar de pensar en ti, sacarte de mi mente u olvidarme y no echar de menos tu cara tu risa y tu pelo. ...";
+ 
+                case 8:
+ 
+                    return "Con esta canci�n que creo que no has escuchado nunca, quer�a decirte que igual que todo el mundo, tienes muchas cosas que te distinguen de los dem�s, y a veces esas cualidades se pueden considerar �locura�. ...";
+ 
+                case 9:
+ 
+                    return "Como empieza Bad Bunny diciendo, no me importan las dem�s, dejo a todo el mundo de lado y solo me importas t�. No paro de so�ar contigo ni de tenerte en mi cabeza, t� eres mi medicina para estar bien. ...";
+ 
+                case 10:
+ 
+                    return "Para entender lo que te quiero decir con esta canci�n, solo tienes que escucharla, pero adem�s de escucharla con tus o�dos, tienes que hacerlo tambi�n con tu coraz�n. ...";
+ 
+                case 11:
+ 
+                    return "Cada vez que escucho esta canci�n solo hay una cosa que se me viene a la cabeza y esa eres t�. ...";
+ 
+                case 12:
+ 
+                    return "Me parece que es una preciosa canci�n. Me hace recordar lo preciosa que eres y lo mal que lo paso cuando te alejas. ...";
+ 
+                case 13:
+ 
+                    return "Espero que esta canci�n pueda recordarte que no me interesa absolutamente nadie que no seas t� y que no te cambiar�a por nadie, paso de cualquier chica o literalmente de cualquier persona siempre y cuando t� est�s bien, yo lo �nico que quiero es lo que dice la canci�n, que te quedes conmigo :((";
+ 
+                case 14:
+ 
+                    return "Es probable que no hayas escuchado esta canci�n pero me parec�a una manera muy light y r�tmica de recordarte de que me espantas los demonios, me calmas y me haces ser una mejor persona. Me siento muy apegado a ti pero no tengo miedo de ello porque s� que t� haces lo mejor para que ambos estemos bien.";
+ 
+                case 15:
+ 
+                    return "Esta canci�n capt� r�pidamente mi atenci�n porque tus ojitos me tienen m�s que enamorado, son preciosos. ...";
+ 
+                case 16:
+ 
+                    return "Por �ltimo y para cerrar, me gustar�a dedicarte esta canci�n para agradecerte todo lo que haces por m�, agradecerte que conf�es en m� y me apoyes
+										</p>
+									</body>
+								</html>
